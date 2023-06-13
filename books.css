@@ -1,0 +1,52 @@
+#book-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(images/bro2.png);
+    
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .book {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .book img {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  
+  .book-details {
+    flex-grow: 1;
+  }
+  
+  .book-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-author {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  
+  .book-genre {
+    margin-bottom: 5px;
+  }
+  
+  .book-year {
+    font-size: 12px;
+  }
+  
+  
+  body {
+    background-color: #fbfcf5;
+    font-family: Arial, sans-serif;
+    background-image: url(images/bo.jpg);
+  }
+  

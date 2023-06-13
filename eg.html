@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="eg.css">
+  
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+</head>
+<body>
+  
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand active">DEVREV LIBRARY</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="books.html">BOOKS</a></li>
+          <li><a href="feedback.html">FEEDBACK</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+
+         
+          <li><a href="logout.html"><span class="glyphicon glyphicon-log-out">LOGOUT</span></a></li>
+          
+        </ul>
+
+    </div>
+  </nav>
+  <h1>Book Cart</h1>
+
+  <div id="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+   
+   
+     <button id="checkout-btn" onclick="myfunction()"> Checkout</button>
+    
+     <button onclick="window.location.href = 'search.html';">Search</button>
+    <!-- <button a href="trail.js" >SUBMIT </button>  -->
+  </div>
+
+  <div id="book-list">
+    <h2>Available Books</h2>
+    <ul id="books">
+      <li data-price="25000">
+        <div class="book-info">
+          <h3>DEVREV Training</h3>
+          <img src="images/dev.png" alt="BOOK1" width="40%" height="20%">
+          <p>Author: DEVREV</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="250">
+        <div class="book-info">
+          <h3>JAVA</h3>
+          <img src="images/books1.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: Author 1</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="300">
+        <div class="book-info">
+          <h3>C++</h3>
+          <img src="images/book2.jpg" alt="BOOK2" width="40%" height="20%">
+          <p>Author: Author 2</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="220">
+        <div class="book-info">
+          <h3>Data Structure</h3>
+          <img src="images/books3.jpg" alt="BOOK3" width="40%" height="20%">
+          <p>Author: Author 3</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="400">
+        <div class="book-info">
+          <h3>OS</h3>
+          <img src="images/book4.jpg" alt="BOOK4" width="40%" height="20%">
+          <p>Author: Author 4</p>
+         
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="1000">
+        <div class="book-info">
+          <h3>LEO</h3>
+          <img src="images/leo.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: LOKI</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="500">
+        <div class="book-info">
+          <h3>VIKRAM</h3>
+          <img src="images/vikram.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: LOKI</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="350">
+        <div class="book-info">
+          <h3>Kaithi</h3>
+          <img src="images/kaithi.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: LOKI</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="200">
+        <div class="book-info">
+          <h3>RRR</h3>
+          <img src="images/rrr.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: Atlee</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="10000">
+        <div class="book-info">
+          <h3>Virat Kohli Biopic</h3>
+          <img src="images/kohli.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: Robert</p>
+         
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      <li data-price="5000">
+        <div class="book-info">
+          <h3>MS Dhoni Biopic</h3>
+          <img src="images/dhoni.jpg" alt="BOOK1" width="40%" height="20%">
+          <p>Author: Robert</p>
+          
+        </div>
+        <button class="add-btn">Add to Cart</button>
+      </li>
+      
+    </ul>
+  </div>
+
+  <script src="eg.js"></script>
+</body>
+</html>
